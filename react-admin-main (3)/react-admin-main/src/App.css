@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.loginPanel {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  min-height: 320px;
+  justify-self: center;
+  filter: blur(4);
+  border-top: 1px solid rgba(128, 128, 128, 0.197);
+  background: white;
+}
+
+.loginPanel h1 {
+  align-self: center;
+}
+
+.loginPanel form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  margin: 20px 0;
+}
+
+.formItem label {
+  font-weight: 600;
+}
+
+.loginPanel .formItem input {
+  border: none;
+  border-bottom: 2px solid blue;
+  margin: 10px 0;
+  padding: 12px;
+  outline: none;
+  width: 100%;
+  align-self: center;
+  border-radius: 5px 5px 0 0px;
+}
+.formItem select {
+  border: none;
+  border-bottom: 2px solid blue;
+  margin: 10px 0;
+  padding: 12px;
+  outline: none;
+  width: 100%;
+  align-self: center;
+  border-radius: 5px 5px 0 0px;
+}
+
+.loginPanel .formItem input:focus {
+  background: antiquewhite;
+}
+
+.loginPanel button {
+  background: blue;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.loginPanel button:active {
+  box-shadow: none;
+}
+
+.loginPanel a {
+  align-self: center;
+}
+
+.loginPanel a button{
+  background: grey;
+  width: 200px;
+}
+
+.customerLoginPanel {
+  margin-top: 50px !important;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  height: 400px;
+  justify-self: center;
+  filter: blur(4);
+  border-top: 1px solid rgba(128, 128, 128, 0.197);
+  background: white;
+}
+
+.customerLoginPanel h1 {
+  align-self: center;
+}
+
+.customerLoginPanel form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  margin: 20px 0;
+}
+
+.customerLoginPanel .formItem input {
+  border: none;
+  border-bottom: 2px solid blue;
+  margin: 10px 0;
+  padding: 12px;
+  outline: none;
+  width: 100%;
+  align-self: center;
+  border-radius: 5px 5px 0 0px;
+}
+
+.customerLoginPanel .formItem input:focus {
+  background: antiquewhite;
+}
+
+.customerLoginPanel button {
+  background: blue;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.customerLoginPanel button:active {
+  box-shadow: none;
+}
+
+.customerLoginPanel a {
+  align-self: center;
+}
+.termsAndPrivacy{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.termsAndPrivacy a{
+  text-decoration: none;
+}
+
+.termsAndPrivacy a:hover{
+  text-decoration: underline;
+}
+.customerLoginPanel a button{
+  background: grey;
+  width: 200px;
+}
+
+.customer-register{
+    min-height: 700px !important;
+    margin-bottom: 50px;
+}
+.tableBody tr{
+  text-align: right;
+}
+.PolicyContainer{
+  width: 100%;
+  padding-top: 50px;
+  overflow-anchor: none;
+}
+.PolicyHeader{
+  width: 100%;
+  text-align: center;
+}
+.PolicyBody{
+  padding: 20px;
+  background-color: aliceblue;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.PolicyBody p{
+  text-align: justify;
+}
+.PolicyFooter{
+  width: 100%;
+  text-align: center;
+  height: 100px;
+}
+.PolicyFooter{
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+.PolicyFooter span{
+  font-size: 14px;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
